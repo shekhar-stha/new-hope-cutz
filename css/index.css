@@ -142,13 +142,13 @@ nav .navbar-nav .nav-link:hover {
   /* filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.5)); */
 }
 
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
   .logo {
     position: relative;
     top: 1rem;
     z-index: 10;
   }
-}
+} */
 
 @media (max-width: 1400px) {
   .logo {
@@ -561,6 +561,13 @@ nav .navbar-nav .nav-link:hover {
 }
 
 .secondary-about-us .flex .img-side img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.secondary-about-us .flex .img-side video {
   width: 100%;
   border-radius: 12px;
   object-fit: cover;
