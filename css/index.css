@@ -1508,6 +1508,10 @@ footer .popup-flex {
   footer .popup-flex {
     width: 90%;
   }
+
+  footer {
+    padding-top: 2rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1518,7 +1522,7 @@ footer .popup-flex {
   }
 
   footer {
-    padding-top: 8rem;
+    padding-top: 3rem;
   }
 
   footer .logo-div {
@@ -1528,17 +1532,11 @@ footer .popup-flex {
 
 @media (max-width: 576px) {
   footer {
-    padding-top: 10rem;
+    padding-top: 2rem;
   }
 
   footer .popup-flex {
     top: -8%;
-  }
-}
-
-@media (max-width: 576px) {
-  footer {
-    padding-top: 14rem;
   }
 }
 
