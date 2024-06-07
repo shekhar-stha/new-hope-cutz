@@ -1,6 +1,11 @@
 @import "/css/custom.css";
 @import "/css/extra.css";
 
+
+.offcanvas-logo-section{
+ background-color: #eeeeee;
+}
+
 /* Fist Nav */
 .first-nav {
   background-color: var(--first-nav-background-color);
